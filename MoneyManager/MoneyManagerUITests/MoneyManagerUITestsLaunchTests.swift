@@ -1,13 +1,13 @@
 //
-//  ManageYourPocketUITestsLaunchTests.swift
-//  ManageYourPocketUITests
+//  MoneyManagerUITestsLaunchTests.swift
+//  MoneyManagerUITests
 //
-//  Created by Jitendra Rathore on 11/12/25.
+//  Created by Jitendra Rathore on 31/12/25.
 //
 
 import XCTest
 
-final class ManageYourPocketUITestsLaunchTests: XCTestCase {
+final class MoneyManagerUITestsLaunchTests: XCTestCase {
 
     override class var runsForEachTargetApplicationUIConfiguration: Bool {
         true
