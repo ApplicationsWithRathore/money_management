@@ -1,14 +1,14 @@
 //
-//  ManageYourPocketTests.swift
-//  ManageYourPocketTests
+//  MoneyManagerTests.swift
+//  MoneyManagerTests
 //
-//  Created by Jitendra Rathore on 11/12/25.
+//  Created by Jitendra Rathore on 31/12/25.
 //
 
 import Testing
-@testable import ManageYourPocket
+@testable import MoneyManager
 
-struct ManageYourPocketTests {
+struct MoneyManagerTests {
 
     @Test func example() async throws {
         // Write your test here and use APIs like `#expect(...)` to check expected conditions.

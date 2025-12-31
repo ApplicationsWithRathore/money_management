@@ -7,62 +7,62 @@
 	objects = {
 
 /* Begin PBXContainerItemProxy section */
-		68197ED92EEA90BA00FF0D04 /* PBXContainerItemProxy */ = {
+		6825F5042F057BAE00000E11 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 68197EC32EEA90B800FF0D04 /* Project object */;
+			containerPortal = 6825F4E92F057BAC00000E11 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 68197ECA2EEA90B800FF0D04;
-			remoteInfo = ManageYourPocket;
+			remoteGlobalIDString = 6825F4F02F057BAC00000E11;
+			remoteInfo = MoneyManager;
 		};
-		68197EE32EEA90BA00FF0D04 /* PBXContainerItemProxy */ = {
+		6825F50E2F057BAE00000E11 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 68197EC32EEA90B800FF0D04 /* Project object */;
+			containerPortal = 6825F4E92F057BAC00000E11 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 68197ECA2EEA90B800FF0D04;
-			remoteInfo = ManageYourPocket;
+			remoteGlobalIDString = 6825F4F02F057BAC00000E11;
+			remoteInfo = MoneyManager;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		68197ECB2EEA90B800FF0D04 /* ManageYourPocket.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ManageYourPocket.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		68197ED82EEA90BA00FF0D04 /* ManageYourPocketTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ManageYourPocketTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		68197EE22EEA90BA00FF0D04 /* ManageYourPocketUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ManageYourPocketUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6825F4F12F057BAC00000E11 /* MoneyManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MoneyManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6825F5032F057BAE00000E11 /* MoneyManagerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MoneyManagerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6825F50D2F057BAE00000E11 /* MoneyManagerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MoneyManagerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		68197ECD2EEA90B800FF0D04 /* ManageYourPocket */ = {
+		6825F4F32F057BAC00000E11 /* MoneyManager */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = ManageYourPocket;
+			path = MoneyManager;
 			sourceTree = "<group>";
 		};
-		68197EDB2EEA90BA00FF0D04 /* ManageYourPocketTests */ = {
+		6825F5062F057BAE00000E11 /* MoneyManagerTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = ManageYourPocketTests;
+			path = MoneyManagerTests;
 			sourceTree = "<group>";
 		};
-		68197EE52EEA90BA00FF0D04 /* ManageYourPocketUITests */ = {
+		6825F5102F057BAE00000E11 /* MoneyManagerUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = ManageYourPocketUITests;
+			path = MoneyManagerUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		68197EC82EEA90B800FF0D04 /* Frameworks */ = {
+		6825F4EE2F057BAC00000E11 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		68197ED52EEA90BA00FF0D04 /* Frameworks */ = {
+		6825F5002F057BAE00000E11 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		68197EDF2EEA90BA00FF0D04 /* Frameworks */ = {
+		6825F50A2F057BAE00000E11 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -72,22 +72,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		68197EC22EEA90B800FF0D04 = {
+		6825F4E82F057BAC00000E11 = {
 			isa = PBXGroup;
 			children = (
-				68197ECD2EEA90B800FF0D04 /* ManageYourPocket */,
-				68197EDB2EEA90BA00FF0D04 /* ManageYourPocketTests */,
-				68197EE52EEA90BA00FF0D04 /* ManageYourPocketUITests */,
-				68197ECC2EEA90B800FF0D04 /* Products */,
+				6825F4F32F057BAC00000E11 /* MoneyManager */,
+				6825F5062F057BAE00000E11 /* MoneyManagerTests */,
+				6825F5102F057BAE00000E11 /* MoneyManagerUITests */,
+				6825F4F22F057BAC00000E11 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		68197ECC2EEA90B800FF0D04 /* Products */ = {
+		6825F4F22F057BAC00000E11 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				68197ECB2EEA90B800FF0D04 /* ManageYourPocket.app */,
-				68197ED82EEA90BA00FF0D04 /* ManageYourPocketTests.xctest */,
-				68197EE22EEA90BA00FF0D04 /* ManageYourPocketUITests.xctest */,
+				6825F4F12F057BAC00000E11 /* MoneyManager.app */,
+				6825F5032F057BAE00000E11 /* MoneyManagerTests.xctest */,
+				6825F50D2F057BAE00000E11 /* MoneyManagerUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -95,134 +95,134 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		68197ECA2EEA90B800FF0D04 /* ManageYourPocket */ = {
+		6825F4F02F057BAC00000E11 /* MoneyManager */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 68197EEC2EEA90BA00FF0D04 /* Build configuration list for PBXNativeTarget "ManageYourPocket" */;
+			buildConfigurationList = 6825F5172F057BAE00000E11 /* Build configuration list for PBXNativeTarget "MoneyManager" */;
 			buildPhases = (
-				68197EC72EEA90B800FF0D04 /* Sources */,
-				68197EC82EEA90B800FF0D04 /* Frameworks */,
-				68197EC92EEA90B800FF0D04 /* Resources */,
+				6825F4ED2F057BAC00000E11 /* Sources */,
+				6825F4EE2F057BAC00000E11 /* Frameworks */,
+				6825F4EF2F057BAC00000E11 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				68197ECD2EEA90B800FF0D04 /* ManageYourPocket */,
+				6825F4F32F057BAC00000E11 /* MoneyManager */,
 			);
-			name = ManageYourPocket;
+			name = MoneyManager;
 			packageProductDependencies = (
 			);
-			productName = ManageYourPocket;
-			productReference = 68197ECB2EEA90B800FF0D04 /* ManageYourPocket.app */;
+			productName = MoneyManager;
+			productReference = 6825F4F12F057BAC00000E11 /* MoneyManager.app */;
 			productType = "com.apple.product-type.application";
 		};
-		68197ED72EEA90BA00FF0D04 /* ManageYourPocketTests */ = {
+		6825F5022F057BAE00000E11 /* MoneyManagerTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 68197EEF2EEA90BA00FF0D04 /* Build configuration list for PBXNativeTarget "ManageYourPocketTests" */;
+			buildConfigurationList = 6825F51A2F057BAE00000E11 /* Build configuration list for PBXNativeTarget "MoneyManagerTests" */;
 			buildPhases = (
-				68197ED42EEA90BA00FF0D04 /* Sources */,
-				68197ED52EEA90BA00FF0D04 /* Frameworks */,
-				68197ED62EEA90BA00FF0D04 /* Resources */,
+				6825F4FF2F057BAE00000E11 /* Sources */,
+				6825F5002F057BAE00000E11 /* Frameworks */,
+				6825F5012F057BAE00000E11 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				68197EDA2EEA90BA00FF0D04 /* PBXTargetDependency */,
+				6825F5052F057BAE00000E11 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				68197EDB2EEA90BA00FF0D04 /* ManageYourPocketTests */,
+				6825F5062F057BAE00000E11 /* MoneyManagerTests */,
 			);
-			name = ManageYourPocketTests;
+			name = MoneyManagerTests;
 			packageProductDependencies = (
 			);
-			productName = ManageYourPocketTests;
-			productReference = 68197ED82EEA90BA00FF0D04 /* ManageYourPocketTests.xctest */;
+			productName = MoneyManagerTests;
+			productReference = 6825F5032F057BAE00000E11 /* MoneyManagerTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		68197EE12EEA90BA00FF0D04 /* ManageYourPocketUITests */ = {
+		6825F50C2F057BAE00000E11 /* MoneyManagerUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 68197EF22EEA90BA00FF0D04 /* Build configuration list for PBXNativeTarget "ManageYourPocketUITests" */;
+			buildConfigurationList = 6825F51D2F057BAE00000E11 /* Build configuration list for PBXNativeTarget "MoneyManagerUITests" */;
 			buildPhases = (
-				68197EDE2EEA90BA00FF0D04 /* Sources */,
-				68197EDF2EEA90BA00FF0D04 /* Frameworks */,
-				68197EE02EEA90BA00FF0D04 /* Resources */,
+				6825F5092F057BAE00000E11 /* Sources */,
+				6825F50A2F057BAE00000E11 /* Frameworks */,
+				6825F50B2F057BAE00000E11 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				68197EE42EEA90BA00FF0D04 /* PBXTargetDependency */,
+				6825F50F2F057BAE00000E11 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				68197EE52EEA90BA00FF0D04 /* ManageYourPocketUITests */,
+				6825F5102F057BAE00000E11 /* MoneyManagerUITests */,
 			);
-			name = ManageYourPocketUITests;
+			name = MoneyManagerUITests;
 			packageProductDependencies = (
 			);
-			productName = ManageYourPocketUITests;
-			productReference = 68197EE22EEA90BA00FF0D04 /* ManageYourPocketUITests.xctest */;
+			productName = MoneyManagerUITests;
+			productReference = 6825F50D2F057BAE00000E11 /* MoneyManagerUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		68197EC32EEA90B800FF0D04 /* Project object */ = {
+		6825F4E92F057BAC00000E11 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 2600;
-				LastUpgradeCheck = 2600;
+				LastSwiftUpdateCheck = 2620;
+				LastUpgradeCheck = 2620;
 				TargetAttributes = {
-					68197ECA2EEA90B800FF0D04 = {
-						CreatedOnToolsVersion = 26.0.1;
+					6825F4F02F057BAC00000E11 = {
+						CreatedOnToolsVersion = 26.2;
 					};
-					68197ED72EEA90BA00FF0D04 = {
-						CreatedOnToolsVersion = 26.0.1;
-						TestTargetID = 68197ECA2EEA90B800FF0D04;
+					6825F5022F057BAE00000E11 = {
+						CreatedOnToolsVersion = 26.2;
+						TestTargetID = 6825F4F02F057BAC00000E11;
 					};
-					68197EE12EEA90BA00FF0D04 = {
-						CreatedOnToolsVersion = 26.0.1;
-						TestTargetID = 68197ECA2EEA90B800FF0D04;
+					6825F50C2F057BAE00000E11 = {
+						CreatedOnToolsVersion = 26.2;
+						TestTargetID = 6825F4F02F057BAC00000E11;
 					};
 				};
 			};
-			buildConfigurationList = 68197EC62EEA90B800FF0D04 /* Build configuration list for PBXProject "ManageYourPocket" */;
+			buildConfigurationList = 6825F4EC2F057BAC00000E11 /* Build configuration list for PBXProject "MoneyManager" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = 68197EC22EEA90B800FF0D04;
+			mainGroup = 6825F4E82F057BAC00000E11;
 			minimizedProjectReferenceProxies = 1;
 			preferredProjectObjectVersion = 77;
-			productRefGroup = 68197ECC2EEA90B800FF0D04 /* Products */;
+			productRefGroup = 6825F4F22F057BAC00000E11 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				68197ECA2EEA90B800FF0D04 /* ManageYourPocket */,
-				68197ED72EEA90BA00FF0D04 /* ManageYourPocketTests */,
-				68197EE12EEA90BA00FF0D04 /* ManageYourPocketUITests */,
+				6825F4F02F057BAC00000E11 /* MoneyManager */,
+				6825F5022F057BAE00000E11 /* MoneyManagerTests */,
+				6825F50C2F057BAE00000E11 /* MoneyManagerUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		68197EC92EEA90B800FF0D04 /* Resources */ = {
+		6825F4EF2F057BAC00000E11 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		68197ED62EEA90BA00FF0D04 /* Resources */ = {
+		6825F5012F057BAE00000E11 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		68197EE02EEA90BA00FF0D04 /* Resources */ = {
+		6825F50B2F057BAE00000E11 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -232,21 +232,21 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		68197EC72EEA90B800FF0D04 /* Sources */ = {
+		6825F4ED2F057BAC00000E11 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		68197ED42EEA90BA00FF0D04 /* Sources */ = {
+		6825F4FF2F057BAE00000E11 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		68197EDE2EEA90BA00FF0D04 /* Sources */ = {
+		6825F5092F057BAE00000E11 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -256,20 +256,20 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		68197EDA2EEA90BA00FF0D04 /* PBXTargetDependency */ = {
+		6825F5052F057BAE00000E11 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 68197ECA2EEA90B800FF0D04 /* ManageYourPocket */;
-			targetProxy = 68197ED92EEA90BA00FF0D04 /* PBXContainerItemProxy */;
+			target = 6825F4F02F057BAC00000E11 /* MoneyManager */;
+			targetProxy = 6825F5042F057BAE00000E11 /* PBXContainerItemProxy */;
 		};
-		68197EE42EEA90BA00FF0D04 /* PBXTargetDependency */ = {
+		6825F50F2F057BAE00000E11 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 68197ECA2EEA90B800FF0D04 /* ManageYourPocket */;
-			targetProxy = 68197EE32EEA90BA00FF0D04 /* PBXContainerItemProxy */;
+			target = 6825F4F02F057BAC00000E11 /* MoneyManager */;
+			targetProxy = 6825F50E2F057BAE00000E11 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		68197EEA2EEA90BA00FF0D04 /* Debug */ = {
+		6825F5152F057BAE00000E11 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -322,7 +322,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -333,7 +333,7 @@
 			};
 			name = Debug;
 		};
-		68197EEB2EEA90BA00FF0D04 /* Release */ = {
+		6825F5162F057BAE00000E11 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -380,7 +380,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -390,7 +390,7 @@
 			};
 			name = Release;
 		};
-		68197EED2EEA90BA00FF0D04 /* Debug */ = {
+		6825F5182F057BAE00000E11 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -410,7 +410,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = name.applicationWithRathore.ManageYourPocket;
+				PRODUCT_BUNDLE_IDENTIFIER = name.applicationWithRathore.MoneyManager;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
@@ -422,7 +422,7 @@
 			};
 			name = Debug;
 		};
-		68197EEE2EEA90BA00FF0D04 /* Release */ = {
+		6825F5192F057BAE00000E11 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -442,7 +442,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = name.applicationWithRathore.ManageYourPocket;
+				PRODUCT_BUNDLE_IDENTIFIER = name.applicationWithRathore.MoneyManager;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
@@ -454,7 +454,7 @@
 			};
 			name = Release;
 		};
-		68197EF02EEA90BA00FF0D04 /* Debug */ = {
+		6825F51B2F057BAE00000E11 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -462,9 +462,9 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = UF7P628RMR;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = name.applicationWithRathore.ManageYourPocketTests;
+				PRODUCT_BUNDLE_IDENTIFIER = name.applicationWithRathore.MoneyManagerTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
@@ -472,11 +472,11 @@
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ManageYourPocket.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ManageYourPocket";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MoneyManager.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MoneyManager";
 			};
 			name = Debug;
 		};
-		68197EF12EEA90BA00FF0D04 /* Release */ = {
+		6825F51C2F057BAE00000E11 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -484,9 +484,9 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = UF7P628RMR;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = name.applicationWithRathore.ManageYourPocketTests;
+				PRODUCT_BUNDLE_IDENTIFIER = name.applicationWithRathore.MoneyManagerTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
@@ -494,11 +494,11 @@
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ManageYourPocket.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ManageYourPocket";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MoneyManager.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MoneyManager";
 			};
 			name = Release;
 		};
-		68197EF32EEA90BA00FF0D04 /* Debug */ = {
+		6825F51E2F057BAE00000E11 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -506,7 +506,7 @@
 				DEVELOPMENT_TEAM = UF7P628RMR;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = name.applicationWithRathore.ManageYourPocketUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = name.applicationWithRathore.MoneyManagerUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
@@ -514,11 +514,11 @@
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = ManageYourPocket;
+				TEST_TARGET_NAME = MoneyManager;
 			};
 			name = Debug;
 		};
-		68197EF42EEA90BA00FF0D04 /* Release */ = {
+		6825F51F2F057BAE00000E11 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -526,7 +526,7 @@
 				DEVELOPMENT_TEAM = UF7P628RMR;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = name.applicationWithRathore.ManageYourPocketUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = name.applicationWithRathore.MoneyManagerUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
@@ -534,50 +534,50 @@
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = ManageYourPocket;
+				TEST_TARGET_NAME = MoneyManager;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		68197EC62EEA90B800FF0D04 /* Build configuration list for PBXProject "ManageYourPocket" */ = {
+		6825F4EC2F057BAC00000E11 /* Build configuration list for PBXProject "MoneyManager" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				68197EEA2EEA90BA00FF0D04 /* Debug */,
-				68197EEB2EEA90BA00FF0D04 /* Release */,
+				6825F5152F057BAE00000E11 /* Debug */,
+				6825F5162F057BAE00000E11 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		68197EEC2EEA90BA00FF0D04 /* Build configuration list for PBXNativeTarget "ManageYourPocket" */ = {
+		6825F5172F057BAE00000E11 /* Build configuration list for PBXNativeTarget "MoneyManager" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				68197EED2EEA90BA00FF0D04 /* Debug */,
-				68197EEE2EEA90BA00FF0D04 /* Release */,
+				6825F5182F057BAE00000E11 /* Debug */,
+				6825F5192F057BAE00000E11 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		68197EEF2EEA90BA00FF0D04 /* Build configuration list for PBXNativeTarget "ManageYourPocketTests" */ = {
+		6825F51A2F057BAE00000E11 /* Build configuration list for PBXNativeTarget "MoneyManagerTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				68197EF02EEA90BA00FF0D04 /* Debug */,
-				68197EF12EEA90BA00FF0D04 /* Release */,
+				6825F51B2F057BAE00000E11 /* Debug */,
+				6825F51C2F057BAE00000E11 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		68197EF22EEA90BA00FF0D04 /* Build configuration list for PBXNativeTarget "ManageYourPocketUITests" */ = {
+		6825F51D2F057BAE00000E11 /* Build configuration list for PBXNativeTarget "MoneyManagerUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				68197EF32EEA90BA00FF0D04 /* Debug */,
-				68197EF42EEA90BA00FF0D04 /* Release */,
+				6825F51E2F057BAE00000E11 /* Debug */,
+				6825F51F2F057BAE00000E11 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 68197EC32EEA90B800FF0D04 /* Project object */;
+	rootObject = 6825F4E92F057BAC00000E11 /* Project object */;
 }

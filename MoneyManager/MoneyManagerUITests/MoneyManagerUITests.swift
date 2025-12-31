@@ -1,13 +1,13 @@
 //
-//  ManageYourPocketUITests.swift
-//  ManageYourPocketUITests
+//  MoneyManagerUITests.swift
+//  MoneyManagerUITests
 //
-//  Created by Jitendra Rathore on 11/12/25.
+//  Created by Jitendra Rathore on 31/12/25.
 //
 
 import XCTest
 
-final class ManageYourPocketUITests: XCTestCase {
+final class MoneyManagerUITests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.
