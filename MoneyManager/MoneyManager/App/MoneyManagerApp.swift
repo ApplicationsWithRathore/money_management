@@ -17,8 +17,7 @@ struct MoneyManagerApp: App {
              let repo = TransactionRepository(
                  context: persistence.container.viewContext
              )
-             let vm = DashboardViewModel(repository: repo)
-             DashboardView(viewModel: vm)
+             DashboardView()
          }
      }
 }

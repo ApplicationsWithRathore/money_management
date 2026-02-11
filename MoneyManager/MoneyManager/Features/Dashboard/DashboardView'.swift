@@ -6,48 +6,31 @@
 //
 
 import SwiftUI
-
+enum DashboardTab: Hashable {
+    case home
+    case analysis
+    case transaction
+    case profile
+}
 struct DashboardView: View {
-
-    @StateObject private var vm: DashboardViewModel
-
-    init(viewModel: DashboardViewModel) {
-        _vm = StateObject(wrappedValue: viewModel)
+    @State var selection: DashboardTab = .home
+    
+    init() {
     }
-
+    
     var body: some View {
-        VStack(spacing: 16) {
-
-            VStack {
-                Text("Balance")
-                Text("₹\(vm.balance, specifier: "%.2f")")
-                    .font(.largeTitle)
-                    .bold()
+        TabView(selection: $selection) {Tab("", systemImage: "house.fill", value: .home ) {
+        }
+            
+        Tab("", systemImage: "chart.bar.fill", value: .analysis) {
             }
-
-            HStack {
-                VStack {
-                    Text("Income")
-                    Text("₹\(vm.totalIncome, specifier: "%.2f")")
-                        .foregroundColor(.green)
-                }
-
-                Spacer()
-
-                VStack {
-                    Text("Expense")
-                    Text("₹\(vm.totalExpense, specifier: "%.2f")")
-                        .foregroundColor(.red)
-                }
+            Tab("", systemImage: "tray.and.arrow.up.fill", value: .transaction) {
             }
-
-            if vm.isEmpty {
-                Spacer()
-                Text("No transactions yet")
-                    .foregroundColor(.gray)
-                Spacer()
+            Tab("", systemImage: "person.crop.circle.fill", value: .profile) {
             }
         }
-        .padding()
     }
+}
+#Preview {
+    DashboardView()
 }
