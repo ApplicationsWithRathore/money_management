@@ -20,6 +20,7 @@ struct DashboardView: View {
     
     var body: some View {
         TabView(selection: $selection) {Tab("", systemImage: "house.fill", value: .home ) {
+            HomeScreenView()
         }
             
         Tab("", systemImage: "chart.bar.fill", value: .analysis) {
