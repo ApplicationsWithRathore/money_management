@@ -14,22 +14,11 @@ struct HomeScreenView: View {
             VStack {
                 TopBar()
                     .padding(.horizontal, 24)
-                HStack(alignment: .center) {
-                    
-                    TopBalanceView(balance: .constant(1),
-                                   title: .constant("Total Balance"))
-                    Spacer()
-                    Divider()
-                        .frame(width: 2, height: 40)
-                        .background(Color.white)
-                        .padding(.horizontal, 20)
-                    Spacer()
-                    TopBalanceView(balance: .constant(5),
-                                   title: .constant("Total Expense"))
-                }
+                TopBalanceCard()
+                    .padding(.top, 10)
                 .padding(.horizontal, 24)
                 CustomProgressBar(progress: 0.4, totalValue: 4000)
-                RoundCardView()
+                RoundCardView(view: HomeScreenCardView())
               
             }
             .background(
@@ -66,96 +55,29 @@ struct TopBar: View {
         }
     }
 }
-struct CustomProgressBar: View {
-    
-    var progress: Double = 0.3   // 30%
-    var totalValue: Int = 2000
-    
-    var body: some View {
-        VStack(alignment: .leading, spacing: 10) {
-            GeometryReader { geo in
-                ZStack {
-                    RoundedRectangle(cornerRadius: 12)
-                        .fill(Color(hex: "052224"))
-                        .frame(height: 30)
-                    HStack {
-                        Spacer()
-                        RoundedRectangle(cornerRadius: 12)
-                            .fill(Color.white)
-                            .frame(width: geo.size.width * (1 - progress),
-                                   height: 30)
-                        
-                    }
-                    HStack {
-                        Text("\(Int(progress * 100))%")
-                            .font(.subheadline)
-                            .foregroundColor(.white)
-                            .bold()
-                        Spacer()
-                        Text("\(totalValue)")
-                            .font(.subheadline)
-                            .foregroundColor(Color(hex: "052224"))
-                            .bold()
-                    }
-                    .padding(.horizontal, 10)
-                }
-            }
-            .frame(height: 20)
-        }
-        .padding()
-    }
-}
 
 
 
-struct TopBalanceView: View {
-    @Binding var balance: Double
-    @Binding var title: String
-    var body: some View {
-        VStack{
-            HStack(spacing: 10) {
-                Image(systemName: "dollarsign.circle.fill")
-                    .resizable()
-                    .frame(width: 12, height: 12)
-                    .foregroundColor(.black)
-                Text(title)
-                    .font(.system(size: 12, weight: .regular))
-                    .foregroundColor(Color(hex: ColorConstant.textColor.rawValue))
-                
-            }
-            Text("\(balance)")
-                .font(.system(size: 24, weight: .bold))
-                .foregroundColor(.white)
-        }
-    }
-}
-struct RoundCardView: View {
 
+
+
+struct HomeScreenCardView: View {
     var listContent: [Int] = [1,2,3,4,5,6,7,8,9,10]
-
     var body: some View {
-        ZStack {
-
-            RoundedRectangle(cornerRadius: 25)
-                .fill(Color(hex: "F1FFF3"))
-                .ignoresSafeArea()
-
-            VStack(spacing: 0) {
-                CardView()
-                    .padding(.top, 20)
-                List(listContent, id: \.self) { _ in
-                    TransactionView()
-                        .listRowBackground(Color.clear)
-                }
-                .listStyle(.plain)
-                .scrollIndicators(.never)
-                .scrollContentBackground(.hidden)
-                .background(Color.clear)
+        VStack(spacing: 0) {
+            CardView()
+                .padding(.top, 20)
+            List(listContent, id: \.self) { _ in
+                TransactionView()
+                    .listRowBackground(Color.clear)
             }
+            .listStyle(.plain)
+            .scrollIndicators(.never)
+            .scrollContentBackground(.hidden)
+            .background(Color.clear)
         }
     }
 }
-
 struct CardView: View {
     var body: some View {
         VStack {
